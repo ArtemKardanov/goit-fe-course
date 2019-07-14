@@ -1,0 +1,20 @@
+* {outline: 1px solid red;}
+.menu {
+    width: 600px;
+    background-color: greenyellow;
+    margin: auto;
+    padding: 10px 0px 10px 36px;
+}
+.menu-item {
+    display: inline-block;
+    margin-right: 36px;
+}
+.menu-link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 60px;
+}
+.menu-link:hover {
+    color: red;
+}

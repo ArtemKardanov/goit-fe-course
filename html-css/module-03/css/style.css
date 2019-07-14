@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {font-family: 'Playfair Display', 'Arial', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px
+}
+.container {
+   width: 902px;
+   margin: 0 auto;
+}
+/* site navigation */
+nav {
+    margin-bottom: 100px;
+}
+.site-navigation {
+margin: 0px auto;
+padding: 72px 0px 0px 0px;
+font-size: 14px;
+list-style: none;
+width: 564px;
+font-size: 0px;
+}
+.site-navigation li {
+    display: inline-block;
+    width: 140px;
+    font-size: 14px;
+}
+.site-navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+}
+/* main */
+.lifestyle-list, .photodiary-list, .music-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+}
+.lifestyle-list li, .photodiary-list li {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 130px;
+    width: 420px;
+    font-size: 14px;
+}
+.music-list li {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 55px;
+    width: 420px;
+    font-size: 14px;
+}
+.lifestyle-list li:not(:last-child) {
+    margin-right: 60px;
+}
+.photodiary-list li:not(:last-child) {
+    margin-right: 60px;
+}
+.music-list li:not(:last-child) {
+    margin-right: 60px;
+}
+img {
+    margin-bottom: 32px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0px 0px 36px 0px;
+}
+.img-tag {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 25px;
+}
+p {
+    margin: 0px;
+}
+
+/* download button */
+
+.download-button {
+    margin-left: 368px;
+    padding: 18px 37px 16px 30px ;
+    /* min-width: 166px;
+    min-height: 60px; */
+    border: 1px solid black;
+}
+.download-button a {
+    font-family: 'Playfair Display', 'Arial', serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    text-decoration: none;
+}
