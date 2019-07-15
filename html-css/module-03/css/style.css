@@ -10,25 +10,27 @@ body {font-family: 'Playfair Display', 'Arial', serif;
     line-height: 24px
 }
 .container {
-   width: 902px;
+   width: 900px;
    margin: 0 auto;
 }
 /* site navigation */
-nav {
-    margin-bottom: 100px;
+header {
+    padding-top: 72px;
+    padding-bottom: 100px;
 }
 .site-navigation {
 margin: 0px auto;
-padding: 72px 0px 0px 0px;
 font-size: 14px;
 list-style: none;
-width: 564px;
-font-size: 0px;
+text-align: center;
 }
 .site-navigation li {
     display: inline-block;
-    width: 140px;
+    margin-right: 60px;
     font-size: 14px;
+}
+.site-navigation-item:not(:last-child) {
+    margin-right: 60px;
 }
 .site-navigation a {
     text-transform: uppercase;
@@ -40,13 +42,14 @@ font-size: 0px;
     display: block;
 }
 /* main */
-.lifestyle-list, .photodiary-list, .music-list {
+.main-list {
     list-style: none;
     padding: 0px;
     margin: 0px;
     font-size: 0px;
+    margin-bottom: 55px;
 }
-.lifestyle-list li, .photodiary-list li {
+.main-list li {
     display: inline-block;
     margin-left: 0px;
     margin-top: 0px;
@@ -54,7 +57,21 @@ font-size: 0px;
     width: 420px;
     font-size: 14px;
 }
-.music-list li {
+.main-list li:nth-of-type(2n-1) {
+    margin-right: 60px;
+}
+.main-list .music-list-item{
+    margin-bottom: 0px;
+}
+/* .lifestyle-list-item, .photodiary-list-item {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 130px;
+    width: 420px;
+    font-size: 14px;
+}
+.music-list-item {
     display: inline-block;
     margin-left: 0px;
     margin-top: 0px;
@@ -62,15 +79,15 @@ font-size: 0px;
     width: 420px;
     font-size: 14px;
 }
-.lifestyle-list li:not(:last-child) {
+.lifestyle-list-item:not(:last-child) {
     margin-right: 60px;
 }
-.photodiary-list li:not(:last-child) {
+.photodiary-list-item:not(:last-child) {
     margin-right: 60px;
 }
-.music-list li:not(:last-child) {
+.music-list-item:not(:last-child) {
     margin-right: 60px;
-}
+} */
 img {
     margin-bottom: 32px;
 }
@@ -91,11 +108,12 @@ p {
 /* download button */
 
 .download-button {
-    margin-left: 368px;
     padding: 18px 37px 16px 30px ;
     /* min-width: 166px;
     min-height: 60px; */
     border: 1px solid black;
+    margin: 0 auto;
+    display: block;
 }
 .download-button a {
     font-family: 'Playfair Display', 'Arial', serif;
