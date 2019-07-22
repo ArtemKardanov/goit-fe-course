@@ -87,6 +87,15 @@
         text-align: center;
     }
 
+    h2:after {
+        display: block;
+        width: 164px;
+        height: 8px;
+        content: "";
+        margin: 32px auto 0 auto;
+        background-color: #1abc9c;
+    }
+
     .featured-name {
         margin-bottom: 92px;
         color: #515151;
@@ -125,7 +134,14 @@
         width: 255px;
         background-size: cover;
         text-align: center;
+        overflow: hidden;
+        
     }
+
+    /* .product img {
+        height: 283px;
+        width: 255px;
+    } */
 
     .featured-list-item figcaption {
         font-size: 18px;
@@ -139,11 +155,17 @@
         margin: 0;
     }
 
+    .featured-list-item:hover figcaption {
+        background-color: #1abc9c;
+        }
+
     figcaption a {
         display: inline-block;
         color: white;
         text-decoration: none;
     }
+
+    
     figcaption p {
         margin: 0;
         width: 54px;
@@ -176,6 +198,15 @@
         font-weight: 600;
         margin: 0 0 26px 0;
         padding: 0;
+    }
+
+    h3:after {
+        display: block;
+        content: "";
+        width: 136px;
+        height: 4px;
+        background-color: #1abc9c;
+        margin-top: 12px;
     }
     
     .news-list-item:last-child {
