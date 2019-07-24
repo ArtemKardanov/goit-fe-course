@@ -67,7 +67,7 @@
         text-decoration: none;
     }
 
-    .nav-list .home {
+    .nav-list a:hover{
         color: #4ec6ab;
     }
 
@@ -127,12 +127,12 @@
         display: block;
     } */
 
-    figure {
+    .featured-list .item-name {
         margin: 0;
         padding: 0;
     }
 
-    figure .product {
+    .featured-list-item .product {
         margin: 0;
         padding: 0;
         background-color: #e9f0fd;
@@ -149,7 +149,7 @@
         width: 255px;
     } */
 
-    .featured-list-item figcaption {
+    .featured-list-item .item-name {
         font-size: 18px;
         line-height: 32px;
         font-family: 'Roboto', sans-serif;
@@ -161,29 +161,34 @@
         margin: 0;
     }
 
-    .featured-list-item:hover figcaption, .featured-list-item:focus figcaption {
+    .featured-list-item:hover .item-name, .featured-list-item:focus .item-name {
         background-color: #1abc9c;
         }
 
-        .featured-list-item:hover .price, .featured-list-item:focus .price {
+        .featured-list-item:hover a, .featured-list-item:focus a {
             background-color: #7fd9c7;
         }
 
-    figcaption a {
-        display: inline-block;
-        color: white;
-        text-decoration: none;
-    }
-
-    
-    figcaption p {
+        .item-name a {
         margin: 0;
         width: 54px;
         text-align: center;
         display: inline-block;
         background-color: #8c8c8c;
+        text-decoration: none;
         float: right;
+        font-size: 18px;
+        line-height: 32px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: white;
     }
+
+    .news-section {
+        padding-bottom: 82px;
+    }
+
     .news-name {
         margin-bottom: 82px;
     }
@@ -231,20 +236,27 @@
         padding: 0;
     }
 
-    .button-more {
+    /* .button-more {
         width: 160px;
         height: 52px;
         border: 1px solid #4ec6ab;
         background-color: #4ec6ab;
         border-radius: 5px;
-    }
+    } */
 
-    .button-more a {
+    .button {
         font-family: 'Open Sans', sans-serif;
         font-weight: light; 
         font-style: 16px;
-        line-height: 26px;
+        line-height: 52px;
         text-decoration: none;
         color: white;
+        width: 160px;
+        height: 52px;
+        border: 1px solid #4ec6ab;
+        background-color: #4ec6ab;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
     }
     
