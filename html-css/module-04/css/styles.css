@@ -148,7 +148,18 @@
         height: 283px;
         width: 255px;
     } */
-
+    
+    .product div {
+        width: 255px;
+        line-height: 0px;
+    }
+    .featured-list-item a {
+        display: block;
+        
+        line-height: 0px;
+        margin: 0;
+        padding: 0;
+    }
     .featured-list-item .item-name {
         font-size: 18px;
         line-height: 32px;
@@ -159,21 +170,23 @@
         background-color: #323232;
         padding: 0 0 0 14px;
         margin: 0;
+        float: left;
+        width: 187px;
     }
 
     .featured-list-item:hover .item-name, .featured-list-item:focus .item-name {
         background-color: #1abc9c;
         }
 
-        .featured-list-item:hover a, .featured-list-item:focus a {
+        .featured-list-item:hover .price, .featured-list-item:focus .price{
             background-color: #7fd9c7;
         }
-
-        .item-name a {
+        
+        .item-card .price {
         margin: 0;
         width: 54px;
         text-align: center;
-        display: inline-block;
+        
         background-color: #8c8c8c;
         text-decoration: none;
         float: right;
