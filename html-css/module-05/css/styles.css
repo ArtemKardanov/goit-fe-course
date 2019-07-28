@@ -1,0 +1,345 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.wrapper {
+    width: 1110px;
+    margin: auto;
+}
+
+.visually_hidden:not(:focus):not(:active),
+input[type="checkbox"].visually_hidden,
+input[type="radio"].visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+.main_header {
+    padding-top: 36px;
+    padding-bottom: 32px;
+}
+.main_nav .logo {
+    
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    color: #656262;
+    font-weight: light;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo::first-letter {
+    color: #38c1a4;
+    font-weight: bold;
+}
+
+ .nav_list {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 7px 0 0 0;
+}
+
+.nav_list li {
+    float: left;
+    margin-right: 26px;
+}
+
+.nav_list li:last-child {
+    margin-right: 0;
+}
+
+.nav_list a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0f0101;
+    text-decoration: none;
+}
+
+.nav_list a:hover, .nav_list a:focus{
+    color: #4ec6ab ;
+}
+
+.slider {
+    position: relative;
+    height: 600px;
+    width: 100vp;
+    margin-bottom: 108px;
+}
+
+.slider-ctrl {
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.slider-ctrl:hover {
+    opacity: 0.5;
+}
+
+.slider-ctrl-prev {
+    left: 165px;
+}
+
+.slider-ctrl-next {
+    right: 165px;
+}
+
+.slider .slides {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+}
+
+.slides img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.slide_item {
+    position: relative;
+}
+
+.slides_descr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.slides_descr h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.slides_name {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    line-height: 82px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.slides_descr p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 54px;
+    font-weight: light;
+    color: #f6f6f6;
+    text-transform: uppercase;
+}
+
+.collection h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    color: #515151;
+}
+
+.collection h2:after {
+    background-color: #1abc9c;
+    display: block;
+    content: "";
+    width: 164px;
+    height: 8px;
+    margin: 40px auto 80px auto;
+}
+
+.collection_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.collection_item {
+    float: left;
+    width: 255px;
+    height: 283px;
+    margin-right: 30px;
+    line-height: 0;
+    position: relative;
+}
+
+.collection_item:last-child {
+    margin-right: 0;
+}
+
+.collection_item:hover .item_name,  .collection_item:focus .item_name{
+    background-color: #1abc9c;
+}
+
+.collection_item:hover .price {
+    background-color: #7fd9c7;
+}
+
+.collection_item:hover .over_item {
+    opacity: 0.549;
+    }
+
+/* overlay */
+
+.collection_item .card {
+    display: block;   
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.over_item {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 255px;
+    height: 283px;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    color: red;
+    position: absolute;
+    line-height: 0px;
+}
+
+.over_item .content_icons {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+    line-height: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content_icons .icon {
+    
+    width: 50px;
+    line-height: 0px;
+    height: 50px;
+    float: left;
+    margin: 0 8px 8px 0;
+}
+
+.content_icons li:nth-child(4) {
+margin-right: 0px;
+}
+
+.content_icons .icon:last-child {
+    margin: 0px;
+    width: 166px;
+}
+
+.content_icons .icons {
+    display: block;
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.like {
+    background-image: url(../img/new-collection/logo/like-icon.png);
+}
+
+.share {
+    background-image: url(../img/new-collection/logo/share-icon.png);
+}
+
+.time {
+    background-image: url(../img/new-collection/logo/time-icon.png);
+}
+
+.content_icons .add {
+    background-image: url(../img/new-collection/logo/add-icon.png);
+    background-position: left;
+    width: 164px;
+}
+
+.add_to {
+    display: block;
+    font-style: 14px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* overlay */
+
+.collection_item img {
+    height: 283px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.name_price {
+    width: 255px;
+    margin: 0 auto;
+}
+
+.name_price .item_name {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    background-color: #323232;
+    padding: 0 0 0 14px;
+    margin: 0;
+    float: left;
+    width: 187px;
+}
+
+.name_price .price {
+    margin: 0;
+    width: 54px;
+    text-align: center;   
+    background-color: #8c8c8c;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}

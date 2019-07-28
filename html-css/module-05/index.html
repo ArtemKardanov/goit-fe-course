@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="main_header">
+    <header class="main_header wrapper">
         <nav class="main_nav">
             <a class="logo" href="">mart</a>
-            <ul class="main_list">
+            <ul class="nav_list clearfix">
                 <li><a href="">home</a></li>
                 <li><a href="">about us</a></li>
                 <li><a href="">page</a></li>
@@ -25,82 +27,72 @@
         </nav>
     </header>
 
-    <main>
-        <section .tours>
-            <article .paris_tours>
-                <img src="./" alt="">
-                <h2>affordable paris tours</h2>
-                <p>city tours/tour tickets/tour guides</p>
-            </article>
-        </section>
+    <div class="slider">
+        <button class="slider-ctrl slider-ctrl-prev"></button>
+        <button class="slider-ctrl slider-ctrl-next"></button>
+        <ul class="slides">
+            <li slide_item>
+                <img class="slides_img" src="./img/bcg-img/slide4.jpg" alt="">
+                <div class="slides_descr">
+                    <h2 class="slides_name">affordable paris tours</h2>
+                    <p>city tours/tour tickets/tour guides</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <main class="wrapper">
         <section class="collection">
+
             <h2>new collection</h2>
-            <ul class="collection_list">
+
+            <ul class="collection_list clearfix">
                 <li class="collection_item">
-                    <div class="collection_content">
-                        <img class="content_img" src="" alt="">
-                        <div>
-                            <ul class="content_icons">
-                                <li class="like_icon"><a href=""></a></li>
-                                <li class="share_icon"><a href=""></a></li>
-                                <li class="time_icon"><a href=""></a></li>
-                                <li class="add_icon"><a href=""></a></li>
+                    <a class="card" href="">
+                        <div class="over_item">
+                            <ul class="content_icons clearfix">
+                                <li class="icon"><a href="" class="icons like"><span class="visually_hidden">like</span></a></li>
+                                <li class="icon"><a href="" class="icons share"><span class="visually_hidden">share</span></a></li>
+                                <li class="icon"><a href="" class="icons time"><span class="visually_hidden">time</span></a></li>
+                                <li class="icon"><a href="" class="icons add"><span class="visually_hidden">add</span></a><p class="add_to">add to cart</p> </li>
                             </ul>
                         </div>
-                    </div>
-                    <p class="item-name">blue tshirt<a class="price" href="">$26</a></p>
+                        <img class="content_img" src="./img/new-collection/blue_tshirt.png" alt="">
+                        <div class="name_price clearfix">
+                            <p class="item_name">blue tshirt</p><p class="price">$2</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="collection_item">
-                    <div class="collection_content">
-                        <img class="content_img" src="" alt="">
-                        <div>
-                            <ul class="content_icons">
-                                <li class="like_icon"><a href=""></a></li>
-                                <li class="share_icon"><a href=""></a></li>
-                                <li class="time_icon"><a href=""></a></li>
-                                <li class="add_icon"><a href=""></a></li>
-                            </ul>
-                        </div>
+                    <a class="card" href="">
+                    
+                    <img class="content_img" src="./img/new-collection/woman_shirt.png" alt="">
+                    <div class="name_price clearfix">
+                        <p class="item_name">blue tshirt</p><p class="price">$2</p>
                     </div>
-                    <p class="item-name">woman shirt<a class="price" href="">$31</a></p>
+                </a>
                 </li>
                 <li class="collection_item">
-                    <div class="collection_content">
-                        <img class="content_img" src="" alt="">
-                        <div>
-                            <ul class="content_icons">
-                                <li class="like_icon"><a href=""></a></li>
-                                <li class="share_icon"><a href=""></a></li>
-                                <li class="time_icon"><a href=""></a></li>
-                                <li class="add_icon"><a href=""></a></li>
-                            </ul>
-                        </div>
+                    <a class="card" href="">
+                    <img class="content_img" src="./img/new-collection/yellow_tshirt.png" alt="">
+                    <div class="name_price clearfix">
+                        <p class="item_name">blue tshirt</p><p class="price">$2</p>
                     </div>
-                    <p class="item-name">yellow tshirt<a class="price" href="">$21</a></p>
+                </a>
                 </li>
                 <li class="collection_item">
-                    <div class="collection_content">
-                        <img class="content_img" src="" alt="">
-                        <div>
-                            <ul class="content_icons">
-                                <li class="like_icon"><a href=""></a></li>
-                                <li class="share_icon"><a href=""></a></li>
-                                <li class="time_icon"><a href=""></a></li>
-                                <li class="add_icon"><a href=""></a></li>
-                            </ul>
-                        </div>
+                    <a class="card" href="">
+                    <img class="content_img" src="./img/new-collection/cool_lingerie.png" alt="">
+                    <div class="name_price clearfix">
+                        <p class="item_name">blue tshirt</p><p class="price">$2</p>
                     </div>
-                    <p class="item-name">cool lingerie<a class="price" href="">$56</a></p>
+                </a>
                 </li>
             </ul>
         </section>
     </main>
 
-
-    <footer>
-        <p>all rights reserved dokan | designed <span>themengraph</span></p>
-    </footer>
-
+    
 </body>
 
 </html>
