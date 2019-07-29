@@ -26,10 +26,12 @@ input[type="radio"].visually_hidden {
     content: "";
     clear: both;
 }
+
 .main_header {
     padding-top: 36px;
     padding-bottom: 32px;
 }
+
 .main_nav .logo {
     
     display: inline-block;
@@ -85,6 +87,7 @@ input[type="radio"].visually_hidden {
     margin-bottom: 108px;
     /* background-color: rgba(0, 0, 0, 0.3); */
 }
+
 .overlay {
     background-color: rgb(0, 0, 2);
     opacity: 0.5;
@@ -92,7 +95,7 @@ input[type="radio"].visually_hidden {
     height: 600px;
     width: 100%;
     z-index: 9;
-  }  
+}  
 
 .slider-ctrl {
     border: none;
@@ -104,8 +107,7 @@ input[type="radio"].visually_hidden {
     background-color: #1abc9c;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%)
-    
+    transform: translateY(-50%)  
 }
 
   
@@ -158,8 +160,7 @@ input[type="radio"].visually_hidden {
 
 .slides_descr h2, p {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 .slides_name {
@@ -177,8 +178,7 @@ input[type="radio"].visually_hidden {
     line-height: 54px;
     font-weight: light;
     color: #f6f6f6;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
 }
 
 .main_content {
@@ -260,10 +260,8 @@ input[type="radio"].visually_hidden {
     line-height: 0px;     
 }
 
-
 .over_item .content_icons {
     position: absolute;
-    list-style: none;
     margin: 0;
     padding: 0 ;
     line-height: 0px;
@@ -282,17 +280,14 @@ input[type="radio"].visually_hidden {
     height: 50px;
     float: left;
     margin: 0 8px 8px 0;
-    background-color: rgb(0, 0, 0);   
+    background-color: rgba(0, 0, 0, 1);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-/* hover icon */
 
 .like:hover, .share:hover, .time:hover, .add:hover {
     background-color: rgba(26, 188, 156, 1);   
 }
-
-/* hover icon */
-
 
 .content_icons .icon:nth-child(3) {
     margin-right: 0px;
@@ -301,17 +296,7 @@ input[type="radio"].visually_hidden {
 .content_icons .icon:last-child {   
     margin: 0px;
     width: 166px;
-    border: 1px solid white;
     height: 50px;   
-}
-
-.content_icons .icon {
-    display: inline-block;
-    width: 50px;
-    height: 50px;    
-    border: 1px solid white;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .like {
@@ -331,8 +316,6 @@ input[type="radio"].visually_hidden {
     color: white;
     background-position: left;
 }
-
-
 
 /* .add_to {
     display: inline-block;
