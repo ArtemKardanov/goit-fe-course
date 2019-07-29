@@ -223,6 +223,10 @@ input[type="radio"].visually_hidden {
     opacity: 0.549;
 }
 
+.like:hover {
+    background-color: #1abc9c;
+}
+
 
 
 /* overlay */
@@ -252,6 +256,8 @@ input[type="radio"].visually_hidden {
     position: absolute;
     line-height: 0px;
     
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
 }
 
 
@@ -265,6 +271,8 @@ input[type="radio"].visually_hidden {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    height: 108px;
+    width: 166px;
 }
 
 .content_icons .icon {
@@ -278,13 +286,12 @@ input[type="radio"].visually_hidden {
 
 /* hover icon */
 
-/* .like:hover {
+.like:hover {
     background-color: #1abc9c;
-} */
+}
 
-
- 
 /* hover icon */
+
 
 .content_icons li:nth-child(4) {
     margin-right: 0px;
