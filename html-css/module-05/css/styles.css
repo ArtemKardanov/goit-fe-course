@@ -224,7 +224,7 @@ input[type="radio"].visually_hidden {
     margin-right: 0;
 }
 
-.collection_item:hover .item_name,  .collection_item:focus .item_name{
+.collection_item:hover .item_name, .collection_item:focus .item_name{
     background-color: #1abc9c;
 }
 
@@ -297,6 +297,7 @@ input[type="radio"].visually_hidden {
     margin: 0px;
     width: 166px;
     height: 50px;   
+    
 }
 
 .like {
@@ -316,6 +317,18 @@ input[type="radio"].visually_hidden {
     color: white;
     background-position: left;
 }
+
+/* .add_text {
+    height: 50px;
+    width: 116px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    
+} */
 
 /* .add_to {
     display: inline-block;
