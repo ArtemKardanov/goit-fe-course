@@ -26,6 +26,10 @@ input[type="radio"].visually_hidden {
     content: "";
     clear: both;
 }
+  
+.main_content {
+    background-color: #e9f0fd;
+}
 
 .main_header {
     padding-top: 36px;
@@ -84,7 +88,7 @@ input[type="radio"].visually_hidden {
     position: relative;
     height: 600px;
     width: 100%;
-    margin-bottom: 108px;
+    /* margin-bottom: 108px; */
     /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
@@ -182,7 +186,9 @@ input[type="radio"].visually_hidden {
 }
 
 .main_content {
-    margin-bottom: 100px;
+    padding-top: 108px;
+   padding-bottom: 100px;
+    
 }
 
 .collection h2 {
@@ -256,7 +262,7 @@ input[type="radio"].visually_hidden {
     border-color: rgb(255, 255, 255);
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.5);
-     
+    
     position: absolute;
     line-height: 0px;     
 }
@@ -275,7 +281,7 @@ input[type="radio"].visually_hidden {
 }
 
 .content_icons .icon {
-    background-color: rgba(0, 0, 0);
+    /* background-color: black; */
     padding: 0;
     width: 50px;
     line-height: 0px;
@@ -284,11 +290,10 @@ input[type="radio"].visually_hidden {
     margin: 0 8px 8px 0;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(255,255,255, 0);
 }
 
-.like:hover, .share:hover, .time:hover, .add:hover {
-    background-color: rgba(26, 188, 156, 1);   
-}
+
 
 .content_icons .icon:nth-child(3) {
     margin-right: 0px;
@@ -298,7 +303,12 @@ input[type="radio"].visually_hidden {
     margin: 0px;
     width: 166px;
     height: 50px;   
-    
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.like:hover, .share:hover, .time:hover, .content_icons .add:hover {
+    background-color: rgba(26, 188, 156, 1);   
+    cursor: pointer;
 }
 
 .like {
@@ -316,13 +326,13 @@ input[type="radio"].visually_hidden {
 .content_icons .add {
     background-image: url(../img/new-collection/logo/add-icon.png);
     color: white;
-    background-position: left;
+    background-position: 10px;
+    background-color: black;
+    
 }
 
 .add_text {
-    
-    height: 50px;
-    width: 116px;
+    text-align: right;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
