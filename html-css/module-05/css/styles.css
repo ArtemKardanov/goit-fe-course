@@ -89,7 +89,7 @@ input[type="radio"].visually_hidden {
 }
 
 .overlay {
-    background-color: rgb(0, 0, 2);
+    background-color: rgba(0, 0, 2);
     opacity: 0.5;
     position: absolute;
     height: 600px;
@@ -233,7 +233,7 @@ input[type="radio"].visually_hidden {
 }
 
 .card:hover .over_item {
-    opacity: 0.56;
+    display: block;
 }
 
 /* overlay */
@@ -246,6 +246,7 @@ input[type="radio"].visually_hidden {
 }
 
 .over_item {
+    display: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -254,8 +255,8 @@ input[type="radio"].visually_hidden {
     border-width: 10px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: rgb(0, 0, 0);
-    opacity: 0;   
+    background-color: rgba(0, 0, 0, 0.5);
+     
     position: absolute;
     line-height: 0px;     
 }
@@ -274,13 +275,13 @@ input[type="radio"].visually_hidden {
 }
 
 .content_icons .icon {
+    background-color: rgba(0, 0, 0);
     padding: 0;
     width: 50px;
     line-height: 0px;
     height: 50px;
     float: left;
     margin: 0 8px 8px 0;
-    background-color: rgba(0, 0, 0, 1);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -318,7 +319,8 @@ input[type="radio"].visually_hidden {
     background-position: left;
 }
 
-/* .add_text {
+.add_text {
+    
     height: 50px;
     width: 116px;
     margin: 0;
@@ -328,7 +330,7 @@ input[type="radio"].visually_hidden {
     line-height: 32px;
     font-family: 'Open Sans', sans-serif;
     
-} */
+}
 
 /* .add_to {
     display: inline-block;
