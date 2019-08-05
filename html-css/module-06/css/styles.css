@@ -33,6 +33,13 @@ font-family: 'Roboto', sans-serif; */
     line-height: 36px;
     color: #95e1d3;
     text-decoration: none;
+
+    transition: transform 1s linear, color 1s ease-in;
+}
+
+.logo:hover {
+    transform: rotate(180deg);
+    color: red;
 }
 
 .nav-list {
@@ -40,6 +47,7 @@ font-family: 'Roboto', sans-serif; */
     justify-content: space-between;
     letter-spacing: none;
     width: 490px;
+    min-height: 30px;
 }
 
 .nav-list .list-item {
@@ -56,10 +64,13 @@ font-family: 'Roboto', sans-serif; */
     line-height: 16px;
     color: #95e1d3;
     text-decoration: none;
+    padding-bottom: 8px;
+    transition: color 200ms linear, border-bottom 0.2s linear;
 }
 
 .item-link:hover, .item-link a:focus{
     color: #f38181;
+    border-bottom: 3px solid #f38181;
 }
 
 /* MAIN-PART */
@@ -188,7 +199,8 @@ h2::after {
 }
 
 .team-list-item {
-    width: 380px;   
+    width: 380px;  
+    
 }
 
 .background {
@@ -231,6 +243,7 @@ input[type='radio'].visually-hidden {
     width: 380px;
     height: 470px;
     z-index: 10;
+    
     background-image: -moz-linear-gradient( 90deg, rgba(252,227,138,.5) 0%, rgba(243,129,129,.5) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138,.5) 0%, rgba(243,129,129,.5) 100%);
     background-image: -ms-linear-gradient( 90deg, rgba(252,227,138,.5) 0%, rgba(243,129,129,.5) 100%);
@@ -260,7 +273,9 @@ input[type='radio'].visually-hidden {
     background-position: center;
     width: 56px;
     height: 56px;
-    display: block;   
+    display: block;
+
+    transition: background-color 0.2s linear;
 }
 
 .icon:hover {
@@ -282,65 +297,6 @@ input[type='radio'].visually-hidden {
 .instagram {
    background-image: url(../img/icon/instagram.png);
 }
-
-/* TEST */
-
-.Layer_16 {
-    background-image: url("Layer 16.png");
-    position: absolute;
-    left: 242px;
-    top: 958px;
-    width: 875px;
-    height: 492px;
-    z-index: 20;
-  }
-
-  .Rectangle_14 {
-    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    position: absolute;
-    left: 350px;
-    top: 970px;
-    width: 380px;
-    height: 470px;
-    z-index: 19;
-  }
-  
-  
-
-  .Rectangle_16 {
-    background-color: rgb(243, 129, 129);
-    position: absolute;
-    left: 428px;
-    top: 1177px;
-    width: 56px;
-    height: 56px;
-    z-index: 23;
-  }
-
-  .Shape_3_copy {
-    background-color: rgb(243, 129, 129);
-    opacity: 0.502;
-    position: absolute;
-    left: 483px;
-    top: 1177px;
-    width: 1px;
-    height: 56px;
-    z-index: 24;
-  }
-  icons{
-    background-color: rgb(243, 129, 129);
-    position: absolute;
-    left: 499px;
-    top: 1194px;
-    width: 26px;
-    height: 22px;
-    z-index: 30;
-  }
-  
-  /* TEST */
-  
 
 /* OVERLAY */
 
