@@ -125,7 +125,6 @@ h2::after {
 
 .service-list-item {
     width: 380px;
-    min-height: 67px;
     display: flex;
 }
 
@@ -192,7 +191,7 @@ h2::after {
 
 .team-list {
     width: 1202px;
-    min-height: 550px;
+    /* min-height: 550px; */
     list-style: none;
     display: flex;
     justify-content: space-around;
