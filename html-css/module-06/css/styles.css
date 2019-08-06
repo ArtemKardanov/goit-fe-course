@@ -33,7 +33,6 @@ font-family: 'Roboto', sans-serif; */
     line-height: 36px;
     color: #95e1d3;
     text-decoration: none;
-
     transition: transform 1s linear, color 1s ease-in;
 }
 
