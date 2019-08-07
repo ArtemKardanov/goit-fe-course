@@ -235,7 +235,6 @@ input[type='radio'].visually-hidden {
     background-image: -moz-linear-gradient( 90deg, rgba(252,227,138,.5) 0%, rgba(243,129,129,.5) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138,.5) 0%, rgba(243,129,129,.5) 100%);
     background-image: -ms-linear-gradient( 90deg, rgba(252,227,138,.5) 0%, rgba(243,129,129,.5) 100%);
-
     transition: transform 0.2s ease-in;
 }
 
