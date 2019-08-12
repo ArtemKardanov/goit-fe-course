@@ -64,12 +64,17 @@
     margin: 0;
     font-size: 40px;
     line-height: 48px;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .service-title span {
     font-size: 16px;
     line-height: 20px;
     text-transform: none;
+    font-family: 'Amiri';
+    font-style: italic;
+    font-weight: 400; 
 }
 
 /* SERVICE-LIST */
@@ -121,11 +126,16 @@
     line-height: 22px;
     text-transform: capitalize;
     margin-bottom: 3px;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .service-list-item p {
     font-size: 14px;
     line-height: 17px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;  
 }
 
 /* CONTACT-FORM-SECTION */
@@ -171,6 +181,8 @@ footer {
     line-height: 48px;
     text-transform: uppercase;
     color: #fff;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .contact-form-title span {
@@ -178,6 +190,9 @@ footer {
     line-height: 20px;
     text-transform: none;
     color: #606060;
+    font-family: 'Amiri';
+    font-style: italic;
+    font-weight: 400; 
 }
 
 .contact-form {
@@ -246,6 +261,8 @@ textarea {
     border: 1px solid rgb(254, 209, 54);
     border-radius: 3px;
     background-color: rgb(254, 209, 54);
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .usr-email::placeholder, .usr-name::placeholder, .usr-subject::placeholder, textarea::placeholder {
@@ -253,4 +270,6 @@ textarea {
     line-height: 17px;
     text-transform: uppercase;
     color: #bbbbbb
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
