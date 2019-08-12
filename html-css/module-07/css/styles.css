@@ -1,0 +1,256 @@
+
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.main-header {
+    margin-bottom: 118px;
+}
+
+.main-nav {   
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 65px;
+    text-transform: capitalize;
+}
+
+.nav-logo {
+    font-size: 26px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fed136;
+    font-family: 'Dancing Script';
+}
+
+.main-nav .main-nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 486px;
+    text-transform: uppercase;
+}
+
+.list-item-link {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #222222;
+    font-family: 'Montserrat';
+}
+
+.list-item-link:hover {
+    color: #fed136;
+}
+
+/* MAIN */
+
+.main-content {
+    margin-bottom: 122px;
+}
+
+.service-title {
+    margin: 0 0 52px 0;  
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-title p {
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.service-title span {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: none;
+}
+
+/* SERVICE-LIST */
+
+.service-list {
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-list-item {
+    width: 290px;
+    text-align: center;
+}
+
+.service-list-item::before {
+    display: block;
+    height: 72px;
+    width: 72px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(254, 209, 54);
+    border-radius: 50%;
+    content: "";
+    margin: 0 auto 20px;
+    background-image: url(../img/icons/Icon-Basket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laptop::before {
+    background-image: url(../img/icons/Icon-Laptop.png);
+}
+
+.locked::before {
+    background-image: url(../img/icons/Icon-Locked.png);
+}
+
+.service-list-item h3, .service-list-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.service-list-item h3 {
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+
+.service-list-item p {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* CONTACT-FORM-SECTION */
+
+footer {
+    position: relative;
+    height: 658px;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 658px;
+    background-image: url(../img/Background.png);
+}
+
+.background-map {
+    background-image: url(../img/Map\ Image.png);
+    position: absolute;
+    width: 614px;
+    height: 537px;
+    right: 0;
+    bottom: 20px;
+}
+
+.contacts-form-section {
+    width: 940px;
+    height: 454px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-form-title {
+    margin: 0 0 52px 0;  
+    text-align: center;
+}
+
+.contact-form-title p {
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact-form-title span {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: none;
+    color: #606060;
+}
+
+.contact-form {
+    height: 306px;
+    width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.user-info-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    height: 212px;
+    width: 456px;
+    padding: 0;
+    margin: 0;
+}
+
+input, button, textarea {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.user-info .usr-email, .user-info .usr-name, .user-info .usr-subject {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.user-info-list input {
+    padding: 0; 
+    width: 456px;
+    height: 50px;
+}
+
+.usr-email:focus:valid, .usr-name:focus:valid, .usr-msg:focus:valid {
+    outline: 2px solid green;
+}
+
+.usr-email:focus:invalid, .usr-name:focus:invalid, .usr-msg:focus:invalid {
+    outline: 2px solid red;
+}
+
+
+textarea {
+    width: 456px;
+    height: 212px;
+    resize: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.send-button {
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 240px;
+    height: 66px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(254, 209, 54);
+    border-radius: 3px;
+    background-color: rgb(254, 209, 54);
+}
+
+.usr-email::placeholder, .usr-name::placeholder, .usr-subject::placeholder, textarea::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #bbbbbb
+}

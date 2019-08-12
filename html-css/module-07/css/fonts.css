@@ -1,0 +1,48 @@
+/* dancing-script-regular - latin */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dancing Script Regular'), local('DancingScript-Regular'),
+         url(../fonts/dancing-script-v11-latin/dancing-script-v11-latin-regular.woff),
+         url(../fonts/dancing-script-v11-latin/dancing-script-v11-latin-regular.woff2);
+  }
+
+  /* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url(../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff),
+         url(../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2)
+}
+  /* montserrat-900 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Montserrat Black'), local('Montserrat-Black'),
+         url(../fonts/montserrat-v14-latin/montserrat-v14-latin-900.woff),
+         url(../fonts/montserrat-v14-latin/montserrat-v14-latin-900.woff2);
+  }
+
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;  
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url(../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff),
+         url(../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff2);
+  }
+
+/* amiri-italic - latin */
+@font-face {
+    font-family: 'Amiri';
+    font-style: italic;
+    font-weight: 400;   
+    src: local('Amiri Italic'), local('Amiri-Italic'),
+         url(../fonts/amiri-v13-latin/amiri-v13-latin-italic.woff),
+         url(../fonts/amiri-v13-latin/amiri-v13-latin-italic.woff2);
+  }
