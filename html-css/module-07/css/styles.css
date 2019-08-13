@@ -37,6 +37,7 @@
 }
 
 .list-item-link {
+    display: block;
     font-size: 14px;
     line-height: 17px;
     text-decoration: none;
@@ -58,10 +59,6 @@
     margin: 0 0 52px 0;  
     text-align: center;
     text-transform: uppercase;
-}
-
-.service-title p {
-    margin: 0;
     font-size: 40px;
     line-height: 48px;
     font-family: 'Montserrat';
@@ -69,6 +66,7 @@
 }
 
 .service-title span {
+    display: block;
     font-size: 16px;
     line-height: 20px;
     text-transform: none;
@@ -173,10 +171,6 @@ footer {
 .contact-form-title {
     margin: 0 0 52px 0;  
     text-align: center;
-}
-
-.contact-form-title p {
-    margin: 0;
     font-size: 40px;
     line-height: 48px;
     text-transform: uppercase;
@@ -186,6 +180,7 @@ footer {
 }
 
 .contact-form-title span {
+    display: block;
     font-size: 16px;
     line-height: 20px;
     text-transform: none;
@@ -269,7 +264,7 @@ textarea {
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    color: #bbbbbb
+    color: #bbbbbb;
     font-family: 'Montserrat';
     font-weight: bold;
 }
