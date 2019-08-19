@@ -1,0 +1,123 @@
+@media (max-width: 767px) {
+    .main-header {
+        width: 320px;
+        height: 540px;
+        background-image: url(../img/mobile-img-background.png);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-nav {
+        padding-top: 20px;
+        margin-bottom: 35px;
+    }
+    
+    .nav-list {
+        margin-bottom: 120px;
+    }
+
+    .find-partner {
+        width: 300px;
+    }
+
+    .find-partner span {
+        padding: 12px 0;
+    }
+
+    .partner-item {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+
+    .main-content {
+        margin-bottom: 56px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-header {
+        position: relative;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        min-height: 66px;
+        align-items: flex-end;
+    }
+
+    .find-partner {
+        width: 492px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .find-partner {   
+        font-size: 50px;
+        line-height: 62px;   
+    }
+    
+    .find-partner span {
+        font-size: 24px;
+        line-height: 28px;   
+    }
+
+    .partners-list {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 939px) {
+    .container {
+        width: 748px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .main-header {
+        width: 768px;
+        height: 700px;
+        background-image: url(../img/tablet.png);
+        margin: 0 auto;
+    }
+
+    .main-content {
+        margin-bottom: 38px;
+    }
+
+    .partners-list {
+        width: 532px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .partner-item:not(:nth-last-child(-n+2)) {
+        margin-bottom: 56px;
+    }
+}
+
+@media (min-width: 940px){
+    .container {
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        margin-bottom: 70px;
+    }
+
+    .main-header {
+        width: 100%;
+        height: 700px;
+        background-image: url(../img/desktop-bckgr.png);
+    }
+
+    .partners-list {
+        justify-content: space-between;
+    }
+}
+  
