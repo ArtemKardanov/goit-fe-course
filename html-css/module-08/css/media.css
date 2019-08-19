@@ -38,6 +38,7 @@
 @media (min-width: 768px) {
     .main-header {
         position: relative;
+        margin: 0 auto 72px;
     }
 
     .main-nav {
@@ -82,7 +83,6 @@
         width: 768px;
         height: 700px;
         background-image: url(../img/tablet.png);
-        margin: 0 auto;
     }
 
     .main-content {
