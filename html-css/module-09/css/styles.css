@@ -1,0 +1,191 @@
+
+/* .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 10px;
+} */
+
+.main-header {
+    text-align: center;
+    margin-bottom: 72px;
+    background-color: rgba(26, 25, 21, 0.5);
+}
+
+.nav-list .button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    background-color: rgba(26, 25, 21, 0);
+    outline: none;
+    cursor: pointer;
+}
+
+.nav-list .log {
+    border-style: none;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.find-partner {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.find-partner p {
+    margin: 0;
+}
+
+.find-partner span {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.find-partner-button {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    color: #ffffff;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+  
+/* MAIN */
+
+.main-content {
+    text-align: center;
+}
+
+.partners-title, .partner-name, .partner-description, .partners-list {
+    margin: 0;
+}
+
+.partners-title {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.partners-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 38px;
+}
+
+.partner-item {
+    text-align: center;
+    width: 236px;
+}
+
+.partner-item a {
+    display: block;
+    text-decoration: none;
+}
+
+.img {
+    margin: 0 auto 22px;
+    width: 121px;
+    position: relative;
+}
+
+.img::after {
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-image: url(../img/icons/tv-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(255, 78, 80);
+    box-sizing: border-box;
+    height: 37px;
+    width: 37px;
+    position: absolute;
+    bottom: 0;
+}
+
+.lucas::after {
+    background-image: url(../img/icons/2-icon.png);
+}
+
+.heather::after {
+    background-image: url(../img/icons/coffee-icon.png);
+}
+
+.chris::after {
+    background-image: url(../img/icons/msg-icon.png);
+}
+  
+.partner-name {
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+
+.partner-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.partner-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #989898;
+}
+
+.partner-name, .partner-description {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.other-partners {
+    border: 2px solid rgb(255, 78, 80);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 284px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(255, 78, 80);
+    outline: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
