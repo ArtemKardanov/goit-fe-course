@@ -1,0 +1,39 @@
+.header-greeting {
+    width: 820px;
+    margin: 0 auto;
+    color: $white-color;
+    text-align: center;
+}
+
+.header-greeting__title {
+    @include font-fam("KaushanScript");
+    font-size: 72px;
+    line-height: 88px;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 120px;
+}
+
+.header-greeting__title--p {
+    margin: 0;
+}
+
+.header-greeting__title--span {
+    font-family: $montserrat;
+    padding-top: 30px;
+    font-size: 150px;
+    line-height: 150px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+.header-greeting__button {
+    font-family: $montserrat;
+    line-height: 17px;
+    padding: 0;
+    width: 164px;
+    height: 44px;
+    border: 3px solid $white-color;
+    background-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,9 @@
+.button {
+    @include font-fam('KaushanScript');
+    color: $white-color;
+    font-size: $main-font-size;
+    text-transform: uppercase;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}

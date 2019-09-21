@@ -1,0 +1,124 @@
+.service-section {
+    margin-bottom: 100px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 238px;
+    align-content: space-between;
+}
+
+.service-list__item {
+    font-size: 0;
+    flex-basis: 33%;
+
+    &::before {
+        @extend %icon;
+        margin-right: 28px;
+    }
+    
+    &--alarm-icon::before {
+        background-image: url(../../../build/images/ALARM.png);
+    
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../../../build/images/ALARM@2x.png);
+     }
+    }
+    
+    &--line-icon::before {
+        background-image: url(../../../build/images/LINE.png);
+    
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../../../build/images/LINE@2x.png);
+     }
+    }
+    
+    &--pc-icon::before {
+        background-image: url(../../../build/images/COMPUTER.png);
+    
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../../../build/images/COMPUTER@2x.png);
+     }
+    }
+    
+    &--book-icon::before {
+        background-image: url(../../../build/images/BOOK.png);
+    
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../../../build/images/BOOK@2x.png);
+     }
+    }
+    
+    &--house-icon::before {
+        background-image: url(../../../build/images/HOME.png);
+    
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../../../build/images/HOME@2x.png);
+     }
+    }
+    
+    &--qr-icon::before {
+        background-image: url(../../../build/images/IMAGE.png);
+    
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../../../build/images/IMAGE@2x.png);
+     }
+    }
+}
+
+.item-card {
+    display: inline-block;
+    width: 336px;
+}
+
+.service-list__item-title,
+.service-list__item-descr {
+    margin: 0;
+}
+
+.section__title {
+    @include font-fam('KaushanScript');
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 62px;
+
+    &::after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 60px;
+        margin: 0 auto;
+        background-color: #f38181;
+        margin-top: 40px;
+    }
+}
+
+.section__title-p {
+    margin: 0;
+}
+
+.section__title-span {
+    @include font-fam('Montserrat');
+    margin-top: 18px;
+    display: block;
+    font-size: $second-font-size;
+    line-height: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service-list__item-title {
+    @include font-fam('Montserrat');
+    text-transform: uppercase;
+    font-size: $main-font-size;
+    line-height: 17px;
+    margin-bottom: 18px;
+}
+
+.service-list__item-descr {
+    @include font-fam('');
+    font-size: 15px;
+    line-height: 18px;
+    color: $secondary-main-text-color;
+}

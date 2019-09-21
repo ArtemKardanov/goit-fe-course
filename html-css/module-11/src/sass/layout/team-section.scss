@@ -1,0 +1,122 @@
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-list__item {
+    flex-basis: 380px;
+}
+
+.team-list__item--background {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background-color: #95e1d3;
+    z-index: -1;
+}
+
+.team-list__item-img {
+    margin-bottom: 30px;
+}
+
+.team-list__item-over {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 470px;
+    z-index: 10;
+    background-image: $card-background-color;
+    transition: transform 0.2s ease-in;
+}
+
+.team-list__item-img {
+    transition: transform 0.2s ease-out;
+    transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.team-list__item:hover .team-list__item-over {
+    display: flex;
+    transform: translate(-10px, -10px);
+}
+
+.team-list__item:hover .team-list__item-img {
+    transform: translate(-10px, -10px);
+}
+
+.social-icon-list {
+    padding-left: 0;
+}
+
+.team-list__item-name,
+.team-list__item-position {
+    margin: 0;
+    text-align: center;
+}
+
+.team-list__item-name {
+    @include font-fam('Montserrat');
+    font-size: $main-font-size;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.team-list__item-position {
+    @include font-fam('');
+    font-size: 15px;
+    line-height: 18px;
+    font-style: italic;
+    color: #acacac;
+}
+
+.social-icon-list {
+    display: flex;
+}
+
+.social-icon__item:not(:last-child) {
+    margin-right: 1px;
+}
+
+.icon {
+    background-color: #fce38a;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 56px;
+    height: 56px;
+    display: block;
+
+    &:hover {
+        background-color: $icon-hover-color;
+    }
+}
+
+.social-icon__item .__svg-icon {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    fill: $icon-hover-color;
+}
+
+.icon:hover .__svg-icon {
+    fill: $white-color;
+}
+
+.social-icon__item .__svg-icon--facebook {
+    width: 16px;
+}
+
+.social-icon__item .__svg-icon--instagram {
+    width: 32px;
+}
+
+.social-icon__item .__svg-icon--pinterest {
+    width: 26px;
+}
+
+.social-icon__item .__svg-icon--twitter {
+    width: 38px;
+}

@@ -1,0 +1,15 @@
+.header-background {
+    background-image: url(../../../build/images/head-background.jpg);
+    background-position: center;
+
+    background-color: teal;
+
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../../../build/images/head-background@2x.jpg);
+    }
+}
+
+.page-header {
+    height: 1000px;
+    margin-bottom: 54px;
+}

@@ -1,0 +1,21 @@
+@mixin font-fam($type) {
+    @if $type=='KaushanScript' {
+        font-family: 'Kaushan Script', cursive;
+    }
+        @else if $type=='Montserrat' {
+        font-family: 'Montserrat', sans-serif;
+    }
+        @else {
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+// @mixin generate-icons($baseclass, $list, $path, $ext) {
+//     @each $icon in $list {
+//         .#{$baseclass}#{$icon} {
+//             @extend %icon;
+//             background-image: url(#{$path}#{$icon}.#{$ext})
+//         }
+//     }       
+// }
+    
