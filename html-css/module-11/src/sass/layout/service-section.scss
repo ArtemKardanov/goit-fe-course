@@ -19,7 +19,7 @@
     }
     
     &--alarm-icon::before {
-        background-image: url(../../images/ALARM.png);
+        background-image: url(../images/ALARM.png);
     
         @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
             background-image: url(../images/ALARM@2x.png);
