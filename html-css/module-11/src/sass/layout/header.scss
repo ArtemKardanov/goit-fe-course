@@ -1,11 +1,11 @@
 .header-background {
-    background-image: url(./images/head-background.jpg);
+    background-image: url(../images/head-background.jpg);
     background-position: center;
 
     background-color: teal;
 
     @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        background-image: url(./images/head-background.jpg)@2x.jpg);
+        background-image: url(../images/head-background@2x.jpg);
     }
 }
 
