@@ -558,27 +558,27 @@ template {
 }
 
 .service-list__item--alarm-icon::before {
-  background-image: url(../../../build/images/ALARM.png);
+  background-image: url(../images/ALARM.png);
 }
 
 .service-list__item--line-icon::before {
-  background-image: url(../../../build/images/LINE.png);
+  background-image: url(../images/LINE.png);
 }
 
 .service-list__item--pc-icon::before {
-  background-image: url(../../../build/images/COMPUTER.png);
+  background-image: url(../images/COMPUTER.png);
 }
 
 .service-list__item--book-icon::before {
-  background-image: url(../../../build/images/BOOK.png);
+  background-image: url(../images/BOOK.png);
 }
 
 .service-list__item--house-icon::before {
-  background-image: url(../../../build/images/HOME.png);
+  background-image: url(../images/HOME.png);
 }
 
 .service-list__item--qr-icon::before {
-  background-image: url(../../../build/images/IMAGE.png);
+  background-image: url(../images/IMAGE.png);
 }
 
 .item-card {
@@ -816,26 +816,26 @@ template {
   }
 
   .service-list__item--alarm-icon::before {
-    background-image: url(../../../build/images/ALARM@2x.png);
+    background-image: url(../images/ALARM@2x.png);
   }
 
   .service-list__item--line-icon::before {
-    background-image: url(../../../build/images/LINE@2x.png);
+    background-image: url(../images/LINE@2x.png);
   }
 
   .service-list__item--pc-icon::before {
-    background-image: url(../../../build/images/COMPUTER@2x.png);
+    background-image: url(../images/COMPUTER@2x.png);
   }
 
   .service-list__item--book-icon::before {
-    background-image: url(../../../build/images/BOOK@2x.png);
+    background-image: url(../images/BOOK@2x.png);
   }
 
   .service-list__item--house-icon::before {
-    background-image: url(../../../build/images/HOME@2x.png);
+    background-image: url(../images/HOME@2x.png);
   }
 
   .service-list__item--qr-icon::before {
-    background-image: url(../../../build/images/IMAGE@2x.png);
+    background-image: url(../images/IMAGE@2x.png);
   }
 }

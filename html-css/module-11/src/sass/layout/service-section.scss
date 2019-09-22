@@ -19,50 +19,50 @@
     }
     
     &--alarm-icon::before {
-        background-image: url(../../../build/images/ALARM.png);
+        background-image: url(../images/ALARM.png);
     
         @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../../../build/images/ALARM@2x.png);
+            background-image: url(../images/ALARM@2x.png);
      }
     }
     
     &--line-icon::before {
-        background-image: url(../../../build/images/LINE.png);
+        background-image: url(../images/LINE.png);
     
         @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../../../build/images/LINE@2x.png);
+            background-image: url(../images/LINE@2x.png);
      }
     }
     
     &--pc-icon::before {
-        background-image: url(../../../build/images/COMPUTER.png);
+        background-image: url(../images/COMPUTER.png);
     
         @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../../../build/images/COMPUTER@2x.png);
+            background-image: url(../images/COMPUTER@2x.png);
      }
     }
     
     &--book-icon::before {
-        background-image: url(../../../build/images/BOOK.png);
+        background-image: url(../images/BOOK.png);
     
         @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../../../build/images/BOOK@2x.png);
+            background-image: url(../images/BOOK@2x.png);
      }
     }
     
     &--house-icon::before {
-        background-image: url(../../../build/images/HOME.png);
+        background-image: url(../images/HOME.png);
     
         @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../../../build/images/HOME@2x.png);
+            background-image: url(../images/HOME@2x.png);
      }
     }
     
     &--qr-icon::before {
-        background-image: url(../../../build/images/IMAGE.png);
+        background-image: url(../images/IMAGE.png);
     
         @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../../../build/images/IMAGE@2x.png);
+            background-image: url(../images/IMAGE@2x.png);
      }
     }
 }
